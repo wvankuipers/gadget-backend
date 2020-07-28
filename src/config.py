@@ -1,5 +1,9 @@
 import os
+import configparser
 
-VERSION = '1.0.0'
-DEV_MODE = os.getenv('DEV_MODE', False)
-SECRET_KEY = 'secret' # Change in production
+config = configparser.ConfigParser()
+config.read('config.ini')
+
+config.set('App', 'DevMode', '1' if os.getenv('DEV_MODE', False) else '0')
+
+# DEV_MODE = os.getenv('DEV_MODE', False)
