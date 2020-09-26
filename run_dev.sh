@@ -3,4 +3,5 @@
 export FLASK_ENV=development
 export DEV_MODE=True
 
-python src/app.py
+# python src/app.py
+flask run

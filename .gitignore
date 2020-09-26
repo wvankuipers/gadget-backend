@@ -1,5 +1,7 @@
+*.pyc
 __pycache__
 
 src/static
 
-gadget.db
+instance
+.env
