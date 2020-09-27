@@ -1,3 +1,6 @@
+[![Coverage Status](https://coveralls.io/repos/github/wvankuipers/gadget-backend/badge.svg)](https://coveralls.io/github/wvankuipers/gadget-backend)
+[![Build Status](https://travis-ci.org/wvankuipers/gadget-backend.svg?branch=master)](https://travis-ci.org/wvankuipers/gadget-backend)
+
 # Gadget Backend
 
 The Python REST backend project build in Docker.
