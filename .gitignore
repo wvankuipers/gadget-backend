@@ -1,7 +1,11 @@
 *.pyc
 __pycache__
+*.egg-info/
 
 src/static
 
 instance
 .env
+
+.coverage
+htmlcov
