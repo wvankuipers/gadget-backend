@@ -7,6 +7,9 @@
 The Python REST backend project build in Docker.
 It is build using the [Flask](https://palletsprojects.com/p/flask/) framework.
 
+## Contributing
+
+If you want to contribute to the project please read our [code of conduct](.github/CODE_OF_CONDUCT.md) and [contributing guidelines](CONTRIBUTING.md).
 
 ## Running development server
 
