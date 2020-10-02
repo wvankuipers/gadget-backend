@@ -17,7 +17,9 @@ The project requires Python 3.6.x or newer.
 Make sure you install the dependencies using pip:
 
 ```bash
+virtualenv gadget
 pip install -r requirements.txt
+pip install -e .
 ```
 
 ### Create development database
@@ -36,6 +38,14 @@ To run the project in development mode run:
 
 ```bash
 ./run_dev.sh
+```
+
+### Run tests
+
+To run the tests using Pytest run:
+
+```bash
+pytest tests/
 ```
 
 ## Database migrations

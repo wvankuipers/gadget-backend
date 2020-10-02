@@ -8,4 +8,5 @@ install:
 
 script:
   - pycodestyle gadget
-  - pytest
+  - coverage run --omit=gadget/lib/*,gadget/bin/* --source=gadget -m pytest tests/
+  - coveralls
