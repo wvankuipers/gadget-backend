@@ -9,7 +9,7 @@ It is build using the [Flask](https://palletsprojects.com/p/flask/) framework.
 
 ## Contributing
 
-If you want to contribute to the project please read our [code of conduct](.github/CODE_OF_CONDUCT.md) and [contributing guidelines](CONTRIBUTING.md).
+If you want to contribute to the project please read our [code of conduct](.github/CODE_OF_CONDUCT.md) and [contributing guidelines](.github/CONTRIBUTING.md).
 
 ## Running development server
 
